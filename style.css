@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px ;
+}
+
+
+#heading{
+    background-color: white;
+    padding-left: 50px;
+    /*position: relative; top: 50px;*/
+    height: 100px;
+    }
+#container-item{
+    display: flex;
+    flex-wrap: wrap;
+     padding: 90px;
+    
+    
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+ #main-div {
+    border: 1px solid lightblue;
+    margin: 50px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container-item1{
+    background-color: white; 
+    width: 400px;
+    height: 350px;
+    margin: 10px;
+    }
+
+.container-item1:hover{
+    box-shadow: 10px 10px 8px #D5D8DC, -10px -10px 8px #D5D8DC ;
+
+}
+
+input[type= checkbox]
+{accent-color:#7B7B7B29;
+}  
+
+.task_add{
+    float: right;
+    margin-right: 80px;
+    font-size: 25px;
+    color: #424242;
+    
+}
+.fa-plus-circle{
+    margin-right: 30px;
+    float: right;
+
+}
+.color-div{
+    background-color: #F7F7F7;
+    margin-bottom: 20px;
+}
+.plus_task{
+    
+    padding: 30px;
+}
+.blur{
+    filter: brightness(30%);
+}
+.popup{
+    font-size: 40px;
+    height: 250px;
+    width: 500px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    left: 433px;
+    border-radius: 8px;
+    
+}
+.button{
+
+    width: 180px;
+    height: 48px;
+    float: right;
+    font-size: 18px;
+    margin-right: 20px;
+
+}
+#popup_add{
+    font-size: 20px;
+    color: #424242;
+    width: 151px;
+    height: 26px;
+    opacity: 1;
+    position: relative; top: 20px; left: 45px;
+
+}
+.fa-close{
+    padding: 10px;
+    float: right;
+}
+.text_area{
+    width: 90%;
+     margin-left: 20px; 
+    
+}
+.check{
+   height: 25px;
+   width: 25px;
+}
+.cardbox{
+    display: flex;
+    margin: 135px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.back-button{
+    position: relative;
+    left: 450px;
+    opacity: 1;
+    font-size: 25px;
+    top: 7px;
+}
+#new-task{
+    position: relative;
+    right: 450px;
+    bottom: 60px;
+}
+.fa-arrow-circle-left{
+    position: relative;
+    left: 410px;
+    bottom: 27px;
+}
+
+
+#fafa_plus{
+    position: relative;
+    right: 430px;
+    bottom: 70px;
+}
+
+
