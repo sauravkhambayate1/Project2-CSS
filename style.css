@@ -13,9 +13,7 @@ body{
 #container-item{
     display: flex;
     flex-wrap: wrap;
-     padding: 90px;
-    
-    
+    padding: 90px;
     width: 100%;
     margin-bottom: 20px;
     }
@@ -32,6 +30,8 @@ body{
     width: 400px;
     height: 350px;
     margin: 10px;
+    border: 3px solid grey;
+    border-radius: 10px;
     }
 
 .container-item1:hover{
@@ -51,8 +51,9 @@ input[type= checkbox]
     
 }
 .fa-plus-circle{
-    margin-right: 30px;
-    float: right;
+    margin-right: 8px;
+    float: right; 
+    position: relative; bottom: 5px;
 
 }
 .color-div{
@@ -60,8 +61,9 @@ input[type= checkbox]
     margin-bottom: 20px;
 }
 .plus_task{
-    
-    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 }
 .blur{
     filter: brightness(30%);
@@ -96,8 +98,9 @@ input[type= checkbox]
 
 }
 .fa-close{
-    padding: 10px;
+    padding: 5px;
     float: right;
+    position: relative; bottom: 15px;
 }
 .text_area{
     width: 90%;
@@ -115,13 +118,7 @@ input[type= checkbox]
     flex-wrap: wrap;
     justify-content: center;
 }
-.back-button{
-    position: relative;
-    left: 450px;
-    opacity: 1;
-    font-size: 25px;
-    top: 7px;
-}
+
 #new-task{
     position: relative;
     right: 450px;
@@ -129,8 +126,9 @@ input[type= checkbox]
 }
 .fa-arrow-circle-left{
     position: relative;
-    left: 410px;
-    bottom: 27px;
+    right: 300px;
+    top: 10px;
+    /* margin-right: 300px; */
 }
 
 
@@ -138,6 +136,68 @@ input[type= checkbox]
     position: relative;
     right: 430px;
     bottom: 70px;
+}
+
+@media only screen and ( max-width: 768px ) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    #main-div{
+        width: 100%;
+        margin: 0%;
+    }
+    .color-div {
+        width: 100%;
+        margin: 0%;
+      }
+     .plus_task{
+       margin: auto;
+       justify-content: space-around;
+     }
+     .fa-plus-circle{
+        transition: 1s;
+        margin: auto;
+    }
+   #heading{
+       text-align: center;
+        margin: auto;
+   }
+   .task_add{
+       display: none;
+       }
+#container-item{
+    width: 100%;
+     margin: 0%; 
+    flex-direction: column;
+    padding: 0%;
+}
+.container-item1{
+     width: 80%;
+     margin: auto;
+   margin-bottom: 1em;
+   justify-content: center;
+    }
+
+     /* page 2  */
+  .popup{
+    margin: auto;
+    width: 100%;
+    top: 200px;
+    left: 0%;
+  }
+  .fa-plus-circle{
+    position: static;
+  }
+
+  /* page 3 */
+  .fa-arrow-circle-left{
+    width: 100%;
+    position: static;
+    
+  }
+
+
 }
 
 

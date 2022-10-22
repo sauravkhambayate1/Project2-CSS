@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="todo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
+
 <body>
     <div class="blur">
     <div id="main-div">
@@ -17,13 +24,16 @@
         </div>
         <div class="color-div">
             <div class="plus_task">
-                <div><span class="back-button">Back</span></div>
-                <div><a href="./index.html"><i class="fa fa-arrow-circle-left" style="font-size:36px"></i></a>
+                <div><a href="./index.html"><i class="fa fa-arrow-circle-left" style="font-size:36px"></i></a></div>
+                
+                <div class="fa-plus-circle"> <a href="./page2.html"><i class="fa fa-plus-circle" style="font-size:45px;color:#00A5EC"></i></a></div>
+                <div> <span class="task_add" style="margin-right: 300px;">Add New Task</span></div>
             </div>
-                <div id="new-task"> <span class="task_add">Add New Task</span></div>
-                <div id="fafa_plus"> <a href="./page4.html"><i class="fa fa-plus-circle" style="font-size:48px;color:#00A5EC"></i></a></div>
-             <div class="cardbox">  
-            <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;">Trip to
+            
+        
+        <div id="container-item" style="justify-content: space-around;">
+
+            <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;"><a href="./page3.html" style="text-decoration: none;">Trip to
                 Paris</a></span><br><br>
                 <hr><br>
                 <input type="checkbox" name="checkbox" checked class="check">
@@ -31,9 +41,11 @@
                 <label style="margin-left: 30px;">Shopping</label>
 
 
-            </div></div>
             </div>
-    </div></div></div>
+            
+ 
+        </div>
+    </div> </div></div>
 
     <div class="popup"><span id="popup_add"><b>Add New Item</b></span>
         <span><a href="./page3.html"><i class="fa fa-close" style="font-size:36px"></i></a></span><hr style="margin-top: 35px;">
@@ -43,7 +55,8 @@
         </form>
         </div>
 
-    
-    
+
+
 </body>
+
 </html>

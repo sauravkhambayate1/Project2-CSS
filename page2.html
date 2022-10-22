@@ -24,17 +24,18 @@
         </div>
         <div class="color-div">
             <div class="plus_task">
+                
+                <div class="fa-plus-circle"> <a href="./page2.html"><i class="fa fa-plus-circle" style="font-size:45px;color:#00A5EC"></i></a></div>
                 <div> <span class="task_add">Add New Task</span></div>
-                <div><a href="index.html"><i class="fa fa-plus-circle" style="font-size:48px;color:red"></i></a></div>
             </div>
             
         
         <div id="container-item">
 
-            <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;">Trip to
-                    Paris</span><br><br>
+            <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;"><a href="./page3.html" style="text-decoration: none;">Trip to
+                Paris</a></span><br><br>
                 <hr><br>
-                <input type="checkbox" name="checkbox" checked>
+                <input type="checkbox" name="checkbox" checked class="check">
                 <label><s>Visit Church</s></label><br><br>
                 <label style="margin-left: 30px;">Shopping</label>
 
@@ -44,14 +45,14 @@
                     List</span><br><br>
                 <hr><br>
 
-                <input type="checkbox" name="checkbox" checked>
+                <input type="checkbox" name="checkbox" checked class="check">
                 <label><s>Visit Supermarket</s></label><br><br>
                 <label style="margin-left: 30px;">Buy Vegetables</label>
             </div>
             <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;">Movies I
                     will watch</span><br><br>
                 <hr><br>
-                <input type="checkbox" name="checkbox" checked>
+                <input type="checkbox" name="checkbox" checked class="check">
                 <label><s>Stranger thing 4</s></label><br><br>
                 <label style="margin-left: 30px;">Avengers Endgame</label>
 
@@ -59,7 +60,7 @@
             <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;">Daily
                     Morning Routine for...</span><br><br>
                 <hr><br>
-                <input type="checkbox" name="checkbox" checked>
+                <input type="checkbox" name="checkbox" checked class="check">
                 <label><s>Wake up at 6 AM</s></label><br><br>
                 <label style="margin-left: 30px;">Sleep at 10pm</label>
 
@@ -68,7 +69,7 @@
             <div class="container-item1"><span style="color: blue; position: relative; left: 25px; top: 15px;">Books to
                     read</span><br><br>
                 <hr><br>
-                <input type="checkbox" name="checkbox" checked>
+                <input type="checkbox" name="checkbox" checked class="check">
                 <label><s>Design of Everyday</s></label><br><br>
                 <label style="margin-left: 30px;">Alchemist</label>
           
@@ -76,16 +77,20 @@
  
         </div>
     </div> </div>
+</div>
+
+ <!-- pop-up box -->
+<div class="popup">
+    <div id="popup_add"><b>Add New Task</b></div>
+<span><a href="./index.html"><i class="fa fa-close" style="font-size:36px"></i></a></span><hr style="margin-top: 35px;">
+<form>
+    <textarea placeholder="Learn C++" class="text_area"></textarea><br><br>
+    <button class="button" style="background-color: #00A5EC; border: none; border-radius: 5px;">+ Add Task </button>
+</form>
+</div>
 
 
-    </div>
-    <div class="popup"><span id="popup_add"><b>Add New Task</b></span>
-    <span><a href="./index.html"><i class="fa fa-close" style="font-size:36px"></i></a></span><hr style="margin-top: 35px;">
-    <form>
-        <textarea placeholder="Learn C++" class="text_area"></textarea><br><br>
-        <button class="button" style="background-color: #00A5EC; border: none; border-radius: 5px;">+ Add Task </button>
-    </form>
-    </div>
+
 </body>
 
 </html>
